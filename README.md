@@ -2,17 +2,18 @@
   max_to_min - aggregate function that returns a text formatted like: max -> min
 
 ## Installation 
-  root user, 
-  git clone ile fonksiyon çekilir. 
-  o foldera girilir, 
-  make install yapılır 
-  veritabanına bağlanılır 
-  create extension max_to_min komutu çalıştırılır. 
+  with root user, 
+  ```bash
+  git clone https://github.com/dilantek/max_to_min.git 
+  cd max_to_min 
+  make install 
+  
+  Then connect to database with superuser and execute:
+   create extension max_to_min;
 
 ## Test
-  fonksiyonun hangi data typleri için çalıştığının ya da fonksiyonun çalılıp çalışmadığının testi yapılabilir
-  Bunun için,
-  postgres kullanıcısı ile fonsiyonun download edildiği dizine gidilir.
-  make installcheck yapılır 
+  It can be tested for which data types the function works or whether the function works.
+  with postgres superuser, go to the directory where the function was downloaded in the previous step and execute:
+  make installcheck  
 
   
