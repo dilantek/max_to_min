@@ -1,7 +1,7 @@
-## Name
+# Name
   max_to_min - aggregate function that returns a text formatted like: max -> min
 
-## Installation 
+# Installation 
   root kullanıcısı ile 
   git clone ile fonksiyon çekilir. 
   o foldera girilir, 
@@ -9,7 +9,7 @@
   veritabanına bağlanılır 
   create extension max_to_min komutu çalıştırılır. 
 
-## Test
+# Test
   fonksiyonun hangi data typleri için çalıştığının ya da fonksiyonun çalılıp çalışmadığının testi yapılabilir
   Bunun için,
   postgres kullanıcısı ile fonsiyonun download edildiği dizine gidilir.
