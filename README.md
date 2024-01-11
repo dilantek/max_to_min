@@ -1,6 +1,3 @@
-# max_to_min
-aggregate function, returns max --> min 
-
 # NAME
   max_to_min - aggregate function that returns a text formatted like: max -> min
 
