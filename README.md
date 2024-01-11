@@ -2,7 +2,7 @@
   max_to_min - aggregate function that returns a text formatted like: max -> min
 
 ## Installation 
-  root kullanıcısı ile 
+  root user, 
   git clone ile fonksiyon çekilir. 
   o foldera girilir, 
   make install yapılır 
