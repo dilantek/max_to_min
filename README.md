@@ -15,7 +15,7 @@
    ```
 ## Test
   It can be tested for which data types the function works or whether the function works.
-  with postgres superuser, go to the directory where the function was downloaded in the previous step and execute:
+  With postgres superuser, go to the directory where the function was downloaded in the previous step and execute:
   ```bash
   make installcheck  
   ```
