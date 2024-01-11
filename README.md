@@ -1,4 +1,4 @@
-# Name
+### Name
   max_to_min - aggregate function that returns a text formatted like: max -> min
 
 # Installation 
